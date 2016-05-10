@@ -15,6 +15,8 @@
 		DB7F305D1C3BBCC000644773 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB7F305B1C3BBCC000644773 /* LaunchScreen.storyboard */; };
 		DB7F30681C3BBCC000644773 /* CarouselDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7F30671C3BBCC000644773 /* CarouselDemoTests.m */; };
 		DB7F30731C3BBCC000644773 /* CarouselDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7F30721C3BBCC000644773 /* CarouselDemoUITests.m */; };
+		DB7F30861C3BBD5100644773 /* YWCarouseView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7F30851C3BBD5100644773 /* YWCarouseView.m */; };
+		DB7F30871C3BC75000644773 /* YWCarouseView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7F30851C3BBD5100644773 /* YWCarouseView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		DB7F306E1C3BBCC000644773 /* CarouselDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarouselDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB7F30721C3BBCC000644773 /* CarouselDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarouselDemoUITests.m; sourceTree = "<group>"; };
 		DB7F30741C3BBCC000644773 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB7F30841C3BBD5100644773 /* YWCarouseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWCarouseView.h; sourceTree = "<group>"; };
+		DB7F30851C3BBD5100644773 /* YWCarouseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWCarouseView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,7 @@
 		DB7F304C1C3BBCC000644773 /* CarouselDemo */ = {
 			isa = PBXGroup;
 			children = (
+				DB7F30801C3BBD0200644773 /* CarouseView */,
 				DB7F30501C3BBCC000644773 /* AppDelegate.h */,
 				DB7F30511C3BBCC000644773 /* AppDelegate.m */,
 				DB7F30531C3BBCC000644773 /* ViewController.h */,
@@ -138,6 +143,15 @@
 				DB7F30741C3BBCC000644773 /* Info.plist */,
 			);
 			path = CarouselDemoUITests;
+			sourceTree = "<group>";
+		};
+		DB7F30801C3BBD0200644773 /* CarouseView */ = {
+			isa = PBXGroup;
+			children = (
+				DB7F30841C3BBD5100644773 /* YWCarouseView.h */,
+				DB7F30851C3BBD5100644773 /* YWCarouseView.m */,
+			);
+			path = CarouseView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +216,7 @@
 		DB7F30421C3BBCC000644773 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = YW;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = YueWen;
 				TargetAttributes = {
@@ -273,6 +288,7 @@
 				DB7F30551C3BBCC000644773 /* ViewController.m in Sources */,
 				DB7F30521C3BBCC000644773 /* AppDelegate.m in Sources */,
 				DB7F304F1C3BBCC000644773 /* main.m in Sources */,
+				DB7F30861C3BBD5100644773 /* YWCarouseView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +297,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB7F30681C3BBCC000644773 /* CarouselDemoTests.m in Sources */,
+				DB7F30871C3BC75000644773 /* YWCarouseView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
